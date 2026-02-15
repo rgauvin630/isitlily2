@@ -56,7 +56,6 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             hold-trigger-key-positions = <50 51 52 53 54 55 56 57>;
-            hold-trigger-on-release;
         };
     };
 
