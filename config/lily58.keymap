@@ -21,7 +21,7 @@
         nucor: nucor {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp R &kp Y &kp A &kp N &kp DOT &kp G &kp A &kp U &kp V &kp I &kp N &kp AT &kp N &kp U &kp C &kp O &kp R &kp DOT &kp C &kp O &kp M &kp TAB &kp LS(R) &kp Y &kp A &kp L &kp Y &kp S &kp S &kp AT &kp N1 &kp N3 &kp ENTER>;
+            bindings = <&kp R &kp Y &kp A &kp N &kp DOT &kp G &kp A &kp U &kp V &kp I &kp N &kp TAB &kp LS(R) &kp Y &kp A &kp L &kp Y &kp S &kp S &kp AT &kp N1 &kp N3 &kp ENTER>;
             label = "NUCOR";
         };
     };
