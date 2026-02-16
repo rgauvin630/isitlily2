@@ -24,6 +24,20 @@
             bindings = <&kp R &kp Y &kp A &kp N &kp DOT &kp G &kp A &kp U &kp V &kp I &kp N &kp TAB &kp LS(R) &kp Y &kp A &kp L &kp Y &kp S &kp S &kp AT &kp N1 &kp N3 &kp ENTER>;
             label = "NUCOR";
         };
+
+        nemail: nemail {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp Y &kp A &kp N &kp DOT &kp G &kp A &kp U &kp V &kp I &kp N &kp AT &kp N &kp U &kp C &kp O &kp R &kp DOT &kp C &kp O &kp M>;
+            label = "NEMAIL";
+        };
+
+        gemail: gemail {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp Y &kp A &kp N &kp DOT &kp E &kp DOT &kp G &kp A &kp U &kp V &kp I &kp N &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "GEMAIL";
+        };
     };
 
     behaviors {
@@ -71,12 +85,22 @@
 
         p_combo {
             bindings = <&p>;
-            key-positions = <42 53>;
+            key-positions = <53 37>;
         };
 
         Nucor {
             bindings = <&nucor>;
             key-positions = <53 41>;
+        };
+
+        nemail {
+            bindings = <&nemail>;
+            key-positions = <52 41>;
+        };
+
+        gemail {
+            bindings = <&gemail>;
+            key-positions = <40 52>;
         };
     };
 
