@@ -102,6 +102,11 @@
             bindings = <&gemail>;
             key-positions = <40 52>;
         };
+
+        delete {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <53 28>;
+        };
     };
 
     keymap {
