@@ -140,7 +140,7 @@
             // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            display-name = "Lower";
+            display-name = "LOW";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans      &trans     &trans           &trans    &trans    &trans
 &kp F1      &kp F2        &kp F3        &kp UP_ARROW  &kp F5        &kp F6                          &kp F7      &kp F8     &kp F9           &kp F10   &kp F11   &kp F12
@@ -160,7 +160,7 @@
             // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            display-name = "Raise";
+            display-name = "HIGH";
             bindings = <
 &trans     &trans  &trans  &trans   &trans   &trans                     &trans           &kp K_CALCULATOR  &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp BACKSPACE    &trans
 &kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &trans           &kp KP_NUMBER_7   &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &trans
